@@ -1,0 +1,57 @@
+/* src/Pages/LoanDetail.css */
+
+.loan-detail-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .loan-detail-card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loan-detail-card h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .loan-detail-card p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .loan-detail-card p strong {
+    color: #333;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
+  .status.approved {
+    background-color: #28a745;
+  }
+  
+  .status.pending {
+    background-color: #ffc107;
+  }
+  
+  .status.rejected {
+    background-color: #dc3545;
+  }
+  

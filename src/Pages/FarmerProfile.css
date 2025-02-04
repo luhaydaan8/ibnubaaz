@@ -1,0 +1,90 @@
+/* src/Pages/FarmerProfile.css */
+
+.farmer-profile {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  .farmer-profile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .profile-field label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .profile-field span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .profile-field input,
+  .profile-field textarea {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile-actions {
+    margin-top: 20px;
+  }
+  
+  .edit-btn,
+  .save-btn,
+  .cancel-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,106 @@
+/* src/Pages/ToolManagement.css */
+
+.tool-management-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-tool-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-tool-form h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .form-group button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tool-list {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .tool-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tool-list th,
+  .tool-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .tool-list th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tool-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tool-list tr:hover {
+    background-color: #ddd;
+  }
+  
+  .tool-list button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tool-list button:hover {
+    background-color: #c82333;
+  }
+  
