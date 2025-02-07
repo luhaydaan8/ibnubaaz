@@ -17,7 +17,7 @@
 
 //   useEffect(() => {
 //     // Fetch all farmers from the backend
-//     axiosInstance
+//    https://backend-11-1.onrender.com/api/farmers/
 //       .get('/farmers/')
 //       .then((response) => {
 //         setFarmers(response.data);
@@ -62,7 +62,7 @@
 //   };
 
 //   const handleDeleteFarmer = (id) => {
-//     axiosInstance
+//    https://backend-11-1.onrender.com/api/farmers/
 //       .delete(`/farmers/${id}/`)
 //       .then(() => {
 //         setFarmers((prev) => prev.filter((farmer) => farmer.id !== id));
@@ -204,7 +204,7 @@
 // export default FarmerManagement;
 
 import React, { useState, useEffect } from 'react';
-import axiosInstance from '../axiosInstance';
+import axiosInstance from '../https://backend-11-1.onrender.com/api/farmers/';
 import './FarmerManagement.css';
 
 const FarmerManagement = () => {
@@ -222,7 +222,7 @@ const FarmerManagement = () => {
 
   useEffect(() => {
     // Fetch all farmers from the backend
-    axiosInstance
+    https://backend-11-1.onrender.com/api/farmers/
       .get('/farmers/')
       .then((response) => {
         setFarmers(response.data);
@@ -240,7 +240,7 @@ const FarmerManagement = () => {
   };
 
   const handleAddFarmer = () => {
-    axiosInstance
+    https://backend-11-1.onrender.com/api/farmers/
       .post('/farmers/', newFarmer)
       .then((response) => {
         setFarmers([...farmers, response.data]);
